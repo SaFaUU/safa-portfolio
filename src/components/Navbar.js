@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar ">
+            <div className="navbar px-12 glass fixed z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -18,15 +18,18 @@ const Navbar = () => {
                     </div>
                     <Link className="btn btn-ghost normal-case text-2xl">SaFa Asgar</Link>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link>Item 1</Link></li>
-                        <li><Link>Item 3</Link></li>
+                        <li><Link>Home</Link></li>
+                        <li><Link>About</Link></li>
+                        <li><Link>Skills</Link></li>
+                        <li><Link>Projects</Link></li>
+                        <li><Link>Contact Me</Link></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                {/* <div className="navbar-end">
                     <Link className="btn btn-ghost">Get started</Link>
-                </div>
+                </div> */}
             </div>
         </div>
     );
