@@ -8,8 +8,8 @@ const Projects = () => {
     return (
         <div className='px-12'>
             <h2 className='text-white text-3xl font-bold'>MY PROJECTS</h2>
-            <div className='flex justify-between flex-wrap'>
-                <div className="card w-96 glass mt-20 lg:mr-6 hover:scale-110 transition ease-in">
+            <div className='flex justify-center flex-wrap'>
+                <div className="card w-96 glass mt-20 lg:mr-20 hover:scale-110 transition ease-in">
                     <figure><img src={CellFlip} alt="car!" className='h-72' /></figure>
                     <div className="card-body">
                         <h2 className="card-title mx-auto ">Cell Flip</h2>
@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 glass mt-20 lg:mr-6 hover:scale-110 transition ease-in">
+                <div className="card w-96 glass mt-20 lg:mr-20 hover:scale-110 transition ease-in">
                     <figure>
                         <img src={service} alt="car!" className='object-fill h-72' />
                     </figure>
@@ -35,7 +35,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 glass mt-20 lg:mr-6 hover:scale-110 transition ease-in">
+                <div className="card w-96  glass mt-20 hover:scale-110 transition ease-in">
                     <figure><img src={ASCII} alt="car!" className='object-fill h-72' /></figure>
                     <div className="card-body">
                         <h2 className="card-title mx-auto">ASCII</h2>

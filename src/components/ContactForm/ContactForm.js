@@ -30,7 +30,7 @@ const ContactForm = () => {
     return (
         <div>
             <h2 className='text-white text-3xl font-bold mb-5'>Contact Me</h2>
-            <Form onSubmit={handleOnSubmit} className='flex flex-col w-4/6  mx-auto glass px-3'>
+            <Form onSubmit={handleOnSubmit} className='flex flex-col w-2/5  mx-auto glass px-3'>
                 <input type="text" icon='mail' label='Email' name='user_email' placeholder='Email…' className="input input-bordered w-full mb-2" />
                 <input type="text" icon='mail' label='Name' name='user_name' placeholder='Name…' className="input input-bordered w-full mb-2" />
                 <textarea id='form-textarea-control-opinion' type="text" icon='mail' label='Name' name='user_message' placeholder='Message…' className="textarea w-full mb-2"
