@@ -1,10 +1,6 @@
 import React from 'react';
 import {
     createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link,
-    Routes,
 } from "react-router-dom";
 import AboutMe from '../components/AboutMe/AboutMe';
 import ProjectPage1 from '../components/ProjectPage/ProjectPage1';

@@ -1,14 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import { neonCursor } from 'threejs-toys'
 import 'animate.css'
-import SafaAsgar_Resume from './assets/SafaAsgar_Resume.pdf';
-import safa from './assets/safa.jpg';
 import './Cursor.css'
-import Projects from './components/Projects/Projects';
-import ContactForm from './components/ContactForm/ContactForm';
-import Typewriter from 'typewriter-effect';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './Routes/Routes';
 
