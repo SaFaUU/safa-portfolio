@@ -15,7 +15,8 @@ const Projects = () => {
                         <h2 className="card-title mx-auto ">Cell Flip</h2>
                         <p>How to park your car at your garage?</p>
                         <div className="card-actions justify-center">
-                            <Link to='https://cellflip.web.app/' className="btn btn-outline w-full">Visit Website</Link>
+                            <Link to='/projects-1' className="btn btn-outline w-full">View Details</Link>
+                            <a href='https://cellflip.web.app/' className="btn btn-outline w-full">Visit Website</a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,8 @@ const Projects = () => {
                         <h2 className="card-title mx-auto">SafaTours</h2>
                         <p>How to park your car at your garage?</p>
                         <div className="card-actions justify-center">
-                            <Link href='https://service-review-f334a.web.app/' className="btn btn-outline w-full">Visit Website</Link>
+                            <Link to='/projects-2' className="btn btn-outline w-full">View Details</Link>
+                            <a href='https://service-review-f334a.web.app/' className="btn btn-outline w-full">Visit Website</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +43,8 @@ const Projects = () => {
                         <h2 className="card-title mx-auto">ASCII</h2>
                         <p>How to park your car at your garage?</p>
                         <div className="card-actions justify-center">
-                            <Link to='https://learning-platform-79b53.web.app/' className="btn btn-outline w-full">Visit Website</Link>
+                            <Link to='/projects-3' className="btn btn-outline w-full">View Details</Link>
+                            <a href='https://learning-platform-79b53.web.app/' className="btn btn-outline w-full">Visit Website</a>
                         </div>
                     </div>
                 </div>
