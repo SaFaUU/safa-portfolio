@@ -44,6 +44,8 @@ const ProjectPage1 = () => {
             <div className='flex flex-col items-start'>
 
                 <h2 className='font-bold text-2xl'>Live Demo Link: https://cellflip.web.app/</h2>
+                <h2 className='font-bold text-2xl'>Client Side Repo: https://github.com/SaFaUU/cellflip-client</h2>
+                <h2 className='font-bold text-2xl'>Server Side Repo: https://github.com/SaFaUU/cellflip-server</h2>
                 <p className='font-bold text-2xl mt-8'>
                     Features
                 </p>

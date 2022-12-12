@@ -44,6 +44,8 @@ const ProjectPage2 = () => {
             <div className='flex flex-col items-start'>
 
                 <h2 className='font-bold text-2xl'>Live Demo Link: https://service-review-f334a.web.app/</h2>
+                <h2 className='font-bold text-2xl'>Client Side Repo: https://github.com/SaFaUU/service-review-client/</h2>
+                <h2 className='font-bold text-2xl'>Server Side Repo: https://github.com/SaFaUU/service-review-server</h2>
                 <p className='font-bold text-2xl mt-8'>
                     Features
                 </p>
